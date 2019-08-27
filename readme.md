@@ -14,6 +14,8 @@ Ubuntu users
 * cd into App\Http\Controllers and edit ApiAuthController find method call authorizeUser
 * change the client_id and client_secret only
 * run php artisan db:seeed. It will seed two users and the products
+* configure nginx
+
 
 Two users
 Admin - Backend
@@ -23,3 +25,11 @@ password: password
 Customer - Frontend (I used vue js instead of Angular). I will learn Angular soon.
 username: joel@shopping.co.za
 password: password
+
+
+Windows users
+ * cd into xammp/htdocs clone the project
+ * followed the other steps example the configuration of nginx
+ 
+ The url for the backend you'll need it for the fronend
+
